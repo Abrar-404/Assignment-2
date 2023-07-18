@@ -146,6 +146,49 @@ background-image: url(../images/Group\ 14.png), linear-gradient(235deg, rgba(140
   padding-bottom: 30px;
   margin-top: 20px;
 }
+.we-are{
+  display: flex;
+  max-width: 1400px;
+  margin: 50px auto 0;
+  justify-content: space-between;
+}
+.image1 img{
+  width: 80%;
+  height: 300px;
+}
+.we-are-gamer{
+
+}
+.we-are-gamer h1{
+  background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+  -webkit-background-clip: text;
+  color: transparent;
+  padding-bottom: 30px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  text-align: right;
+}
+.para2{
+  color: #534C64;
+font-size: 18px;
+font-family: Work Sans;
+font-weight: 400;
+align-items: flex-end;
+padding-bottom: 30px;
+align-items: flex-end;
+  justify-content: flex-end;
+  text-align: right;
+}
+.know{
+ padding-left: 40px; 
+ padding-right: 40px;
+ padding-top: 21px; 
+ padding-bottom: 21px; 
+ background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%); border-radius: 48px; 
+ border: none;
+ color: white;
+ margin-left: 65%;
+}
 
 
 
@@ -165,6 +208,31 @@ background-image: url(../images/Group\ 14.png), linear-gradient(235deg, rgba(140
     flex-direction: column;
     flex-direction: column-reverse;
   }
+  .we-are{
+    flex-direction: column;
+  }
+  .we-are-gamer{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .image1 img{
+    width: 100%;
+  }
+  .we-are-gamer h1{
+    align-items: center;
+  justify-content: center;
+  text-align: center;
+  }
+  .para2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .know{
+    margin: auto;
+  }
 
 }
 
@@ -182,5 +250,25 @@ background-image: url(../images/Group\ 14.png), linear-gradient(235deg, rgba(140
   .goat{
     flex-direction: column;
     flex-direction: column-reverse;
+  }
+  .we-are{
+    flex-direction: column;
+  }
+  .we-are-gamer{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .image1 img{
+    width: 100%;
+  }
+  .para2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .know{
+    margin: auto;
   }
 }
