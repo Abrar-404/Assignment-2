@@ -141,8 +141,8 @@ background-image: url(../images/Group\ 14.png), linear-gradient(235deg, rgba(140
    transform: scale(80%);
 }
 .big-img{
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   padding-bottom: 30px;
   margin-top: 20px;
 }
