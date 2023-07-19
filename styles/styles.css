@@ -221,9 +221,13 @@ font-weight: 400;
   -webkit-background-clip: text;
   color: transparent;
 }
-.cards{
+.cards-section{
 max-width: 1400px;
-margin: 50px 50px 50px 50px;
+margin: 50px auto 0;
+}
+.cards{
+max-width: 900px;
+margin-left: 50px;
 display: flex;
 gap: 20px;
 }
