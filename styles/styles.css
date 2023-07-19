@@ -193,6 +193,105 @@ align-items: flex-end;
  color: white;
  margin-left: 65%;
 }
+.headline{
+  max-width: 1400px;
+  margin: 50px auto 0;
+  
+}
+.para3{
+  color: #534C64;
+font-size: 16px;
+font-family: Work Sans;
+font-weight: 400;
+ justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.headline h1{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #0B0223;
+  padding-bottom: 10px;
+  margin-top: 50px;
+}
+.funny-vidoes{
+  background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.cards{
+max-width: 1400px;
+margin: 50px 50px 50px 50px;
+display: flex;
+gap: 20px;
+}
+.card{
+text-align: left;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+.card img{
+  width: 300px;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+}
+.card p{
+  color: #534C64;
+  padding-top: 10px;
+}
+/* .img1{
+  margin-left: 40px;
+  position: relative;
+} */
+/* .img1-p{
+  color: #534C64;
+  padding-top: 10px;
+  margin-left: 40px;
+} */
+/* .img4{
+margin-right: 30px;
+} */
+.content h3{
+  color: #F948B2;
+}
+.fa-regular .fa-circle-play{
+  width: 100px;
+  height: 100px;
+}
+.overlay{
+  position: absolute;
+  top: 2px;
+  left: 0;
+  right: 0;
+  bottom: 52px;
+  border-radius: 10px;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  background: black;
+  cursor: pointer;
+  text-align: center;
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FF42A5;
+  font-family: Verdana;
+}
+.card:hover .overlay{
+  opacity: 0.8;
+}
+
+
+
+
+
+
 
 
 
@@ -221,9 +320,6 @@ align-items: flex-end;
     justify-content: center;
     text-align: center;
   }
-  .image1 img{
-    width: 100%;
-  }
   .we-are-gamer h1{
     align-items: center;
   justify-content: center;
@@ -237,6 +333,26 @@ align-items: flex-end;
   .know{
     margin: auto;
   }
+  .cards{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin: 50px 50px 50px 50px;
+  }
+  .overlay{
+  position: absolute;
+  top: 2px;
+  left: 0;
+  right: 0px;
+  bottom: 52px;
+  border-radius: 10px;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  background: black;
+  cursor: pointer;
+  text-align: center;
+}
 
 }
 
@@ -275,4 +391,27 @@ align-items: flex-end;
   .know{
     margin: auto;
   }
+  .cards{
+    flex-direction: column;
+     margin: 50px 50px 50px 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+  }
+  .card{
+     margin-right: 50px;
+  }
+  .overlay{
+  position: absolute;
+  top: 2px;
+  left: 0;
+  right: 0px;
+  bottom: 52px;
+  border-radius: 10px;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  background: black;
+  cursor: pointer;
+  text-align: center;
+}
 }
