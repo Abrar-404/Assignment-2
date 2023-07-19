@@ -406,6 +406,12 @@ justify-content: center;
   padding-top: 20px;
   gap: 20px;
 }
+.footer-icons button{
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #534C64;
+  border: none;
+}
 .twitter-icon{
   color: #4EC5F7;
 }
@@ -416,13 +422,13 @@ justify-content: center;
   color: red;
 }
 .link-icon{
-  color: white;
+  color: black;
 }
 .insta-icon{
-  color: white;
+  color: pink;
 }
 .apple-icon{
- color: white;
+ color: rgb(54, 53, 53);
 }
 .terms-and-conditions{
   display: flex;
@@ -543,6 +549,13 @@ justify-content: center;
   display: grid;
   grid-template-columns: repeat(1,1fr);
 }
+.footer-icons button{
+  padding: 5px;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: #534C64;
+  border: none;
+}
 }
 
 
@@ -658,5 +671,12 @@ transition-duration: 0.1s;
 .copyright{
   display: grid;
   grid-template-columns: repeat(1,1fr);
+}
+.footer-icons button{
+  padding: 5px;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: #534C64;
+  border: none;
 }
 }
