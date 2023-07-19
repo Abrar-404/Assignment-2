@@ -333,7 +333,7 @@ padding-top: 10px;
   gap: 10px;
 }
 .btn-primary{
-  flex-basis: 200px;
+  /* flex-basis: 200px; */
   align-items: center;
   justify-content: center;
 border-radius: 48px;
@@ -357,6 +357,35 @@ transition-duration: 0.1s;
   border: 2px solid #FF42A5;
   color: #F948B2;
 }
+footer{
+  background-color: #0B0223;
+  margin-top: 50px;
+}
+.gamer-icon2{
+  display: flex;
+padding-top: 50px;
+gap: 20px;
+align-items: center;
+justify-content: center;
+}
+.gamer-icon2 h2{
+  color: white;
+}
+.gamer-span2{
+  color: #FF42A5;
+}
+.footer-texts{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  align-items: center;
+  justify-content: center;
+  max-width: 900px;
+  margin: 50px auto 0;
+}
+.para5{
+  color: white;
+}
+
 
 
 
@@ -433,6 +462,14 @@ transition-duration: 0.1s;
 .buttons-section{
   grid-template-columns: repeat(3,1fr);
   padding: auto;
+}
+.footer-texts{
+  grid-template-columns: repeat(3,1fr);
+  max-width: 400px;
+  gap: 10px;
+}
+.footer{
+  width: 100%;
 }
 }
 
@@ -512,5 +549,12 @@ transition-duration: 0.1s;
 }
 .text{
   text-align: center;
+}
+.buttons-section{
+  grid-template-columns: repeat(3,1fr);
+  padding: auto;
+}
+footer{
+  width: 100%;
 }
 }
