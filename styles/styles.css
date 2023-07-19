@@ -450,6 +450,9 @@ justify-content: center;
 .copyright p{
   color: rgba(255, 255, 255, 0.60);
 }
+.footer-icons button:hover{
+  transform: scale(80%);
+}
 
 
 
@@ -562,7 +565,7 @@ justify-content: center;
 
 
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 425px) {
   .banner-section{
     flex-direction: column;
   }
@@ -678,5 +681,10 @@ transition-duration: 0.1s;
   border-radius: 5px;
   background-color: #534C64;
   border: none;
+}
+.footer-icons button:hover{
+  transform: scale(80%);
+  width: 0 auto;
+  margin: 0 auto;
 }
 }
