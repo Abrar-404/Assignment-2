@@ -286,6 +286,41 @@ margin-right: 30px;
 .card:hover .overlay{
   opacity: 0.8;
 }
+.play-instant-section{
+display: flex;
+max-width: 1400px;
+margin: 50px auto 0;
+align-items: center;
+justify-content: space-around;
+}
+.text{
+text-align: right;
+padding-bottom: 20px;
+}
+.text h1{
+color: #0B0223;
+}
+.instant{
+  color: #F948B2;;
+}
+.para4{
+color: #534C64;
+padding-top: 10px;
+}
+.game-image{
+  position: relative;
+}
+.game-image-1{
+  width: 400px;
+  height: 400px;
+}
+.little-game-image{
+  height: 200px;
+  width: 180px;
+  position: absolute;
+  top: 250px;
+  right: 300px;
+}
 
 
 
@@ -353,7 +388,12 @@ margin-right: 30px;
   cursor: pointer;
   text-align: center;
 }
-
+.play-instant-section{
+  flex-direction: column;
+}
+.text{
+  text-align: center;
+}
 }
 
 
@@ -412,6 +452,21 @@ margin-right: 30px;
   transition: opacity 0.4s ease-in-out;
   background: black;
   cursor: pointer;
+  text-align: center;
+}
+.play-instant-section{
+  flex-direction: column;
+}
+.game-image-1{
+  margin: 50px 100px 50px 100px;
+  width: 300px;
+  height: 300px;
+}
+.little-game-image{
+  width: 150px;
+  height: 150px;
+}
+.text{
   text-align: center;
 }
 }
