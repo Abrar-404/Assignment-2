@@ -559,6 +559,11 @@ justify-content: center;
   background-color: #534C64;
   border: none;
 }
+.footer-icons button:hover{
+  transform: scale(80%);
+  width: auto;
+  margin: auto;
+}
 }
 
 
