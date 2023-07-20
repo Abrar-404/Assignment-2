@@ -291,7 +291,7 @@ margin-right: 30px;
 }
 .card:hover .overlay{
   opacity: 0.8;
-  border: 2px solid rgb(238, 0, 40);
+  border: 5px solid rgb(238, 0, 40);
 }
 .play-instant-section{
 display: flex;
