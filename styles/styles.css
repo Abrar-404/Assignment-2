@@ -662,7 +662,9 @@ justify-content: center;
 .little-game-image{
   width: 150px;
   height: 150px;
-  margin-left: 50px;
+  bottom: 50px;
+  margin-left: 20px;
+  top: 200px;
 
 }
 .text{
