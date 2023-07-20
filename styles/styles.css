@@ -427,7 +427,7 @@ justify-content: center;
 .footer-icons button{
   padding: 10px;
   border-radius: 5px;
-  background-color: #534C64;
+  background-color: transparent;
   border: none;
 }
 .twitter-icon{
@@ -440,7 +440,7 @@ justify-content: center;
   color: red;
 }
 .link-icon{
-  color: black;
+  color: rgb(136, 134, 134);
 }
 .insta-icon{
   color: pink;
@@ -577,7 +577,7 @@ justify-content: center;
   padding: 5px;
   margin: 0 auto;
   border-radius: 5px;
-  background-color: #534C64;
+  background-color: transparent;
   border: none;
 }
 .footer-icons button:hover{
@@ -712,7 +712,7 @@ transition-duration: 0.1s;
   padding: 5px;
   margin: 0 auto;
   border-radius: 5px;
-  background-color: #534C64;
+  background-color: transparent;
   border: none;
 }
 .footer-icons button:hover{
