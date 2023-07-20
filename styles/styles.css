@@ -6,6 +6,7 @@ font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Work Sans', sans-serif;
+overflow-x: hidden;
 }
 
 
@@ -35,6 +36,7 @@ margin-right: 120px;
 .gamer-icon img{
   width: 80px;
   height: 40px;
+  overflow-x: hidden;
 }
 .gamer-span{
   color: #FF42A5;
@@ -316,22 +318,30 @@ padding-top: 10px;
   position: relative;
 }
 .game-image-1{
+  overflow-x: hidden;
   width: 400px;
   height: 400px;
+  margin: 0 auto;
 }
 .little-game-image{
   height: 200px;
+  overflow-x: hidden;
   width: 180px;
+  left: -70px;
   position: absolute;
   top: 250px;
-  right: 300px;
+  right: 400px;
+  bottom: 70px;
 }
 .button-div{
   max-width: 1400px;
-  margin: 50px auto 0;
+  overflow-x: hidden;
+  margin: 0 auto;
   padding-top: 50px;
+  margin-top: 50px;
 }
 .buttons-section{
+  overflow-x: hidden;
   max-width: 1300px;
   margin: 0 auto;
 display: flex;
@@ -343,6 +353,7 @@ display: flex;
 }
 .btn-primary{
   /* flex-basis: 200px; */
+  overflow-x: hidden;
   display: flex;
   border: none;
   padding: 2px;
@@ -356,22 +367,28 @@ cursor: pointer;
 transition-duration: 0.1s;
 }
 .button-text{
+  overflow-x: hidden;
   vertical-align: middle;
   font-weight: 400;
 }
 .button-image{
+  overflow-x: hidden;
   width: 30px;
   height: 30px;
   vertical-align: middle;
 }
 .btn-primary:hover{
+  overflow-x: hidden;
   border: 2px solid #FF42A5;
   color: #F948B2;
 }
 footer{
   background-color: #0B0223;
-  margin-top: 50px;
+  margin: 0 auto;
   width: 100%;
+  height: 100%;
+  margin-top: 50px;
+  overflow-x: hidden;
 }
 .gamer-icon2{
   display: flex;
@@ -399,7 +416,7 @@ justify-content: center;
 }
 .footer-icons{
   max-width: 700px;
-  margin: 50px auto 0;
+  margin: 0 auto;
   display: flex;
   text-align: center;
   align-items: center;
@@ -466,6 +483,9 @@ justify-content: center;
 
 
 @media screen and (max-width: 768px) {
+  body{
+    overflow-x: hidden;
+  }
   .banner-section{
     flex-direction: column;
   }
@@ -572,6 +592,9 @@ justify-content: center;
 
 
 @media screen and (max-width: 425px) {
+  body{
+    overflow-x: hidden;
+  }
   .banner-section{
     flex-direction: column;
   }
@@ -632,7 +655,7 @@ justify-content: center;
   flex-direction: column;
 }
 .game-image-1{
-  margin: 50px 100px 50px 100px;
+  margin: auto;
   width: 300px;
   height: 300px;
 }
@@ -640,12 +663,14 @@ justify-content: center;
   width: 150px;
   height: 150px;
   margin-left: 50px;
+
 }
 .text{
   text-align: center;
 }
 footer{
-  width: 100%;
+  width: 425px;
+  background-size: auto;
 }
 .buttons-section{
   display: grid;
@@ -692,5 +717,8 @@ transition-duration: 0.1s;
   transform: scale(80%);
   width: 0 auto;
   margin: 0 auto;
+}
+.button-div{
+  margin-top: 80px;
 }
 }
